@@ -1,0 +1,89 @@
+Nhap so sinh vien ban muon them vao
+3
+Nhap Ho va Ten hoc sinh: Nguyen Van @$
+Nhap lai Ho va Ten hoc sinh: Nguyen Van A
+Nhap diem mon Toan: 3
+Nhap diem mon Van: 7
+Nhap diem mon Ngoai ngu: 11
+Nhap lai diem mon Ngoai ngu: 1
+
+Nhap Ho va Ten hoc sinh: Le Van B
+Nhap diem mon Toan: 5
+Nhap diem mon Van: 67
+Nhap lai diem mon Van: 6
+Nhap diem mon Ngoai ngu: 7
+
+Nhap Ho va Ten hoc sinh: Tran Thi C
+Nhap diem mon Toan: 10
+Nhap diem mon Van: 3
+Nhap diem mon Ngoai ngu: 5
+
+1. Tinh diem trung binh
+2. Phan loai HS
+3. Tim hoc sinh co diem TB cao nhat
+4. Tim hoc sinh theo ten
+5. Tim hoc sinh co diem toan thap nhat
+1
+Ban muon tinh diem TB cua hoc sinh thu may?
+2
+Xuat diem trung binh va phan loai 
+Ten: Le Van B
+Diem TB: 5.75
+Danh Hieu: Trung binh
+1. Tinh diem trung binh
+2. Phan loai HS
+3. Tim hoc sinh co diem TB cao nhat
+4. Tim hoc sinh theo ten
+5. Tim hoc sinh co diem toan thap nhat
+1
+Ban muon tinh diem TB cua hoc sinh thu may?
+1
+Xuat diem trung binh va phan loai 
+Ten: Nguyen Van A
+Diem TB: 3.5
+Danh Hieu: Yeu
+1. Tinh diem trung binh
+2. Phan loai HS
+3. Tim hoc sinh co diem TB cao nhat
+4. Tim hoc sinh theo ten
+5. Tim hoc sinh co diem toan thap nhat
+2
+Ban muon xem loai hoc luc cua hoc sinh thu may?
+3
+Xuat diem trung binh va phan loai 
+Ten: Tran Thi C
+Diem TB: 7
+Danh Hieu: Kha
+1. Tinh diem trung binh
+2. Phan loai HS
+3. Tim hoc sinh co diem TB cao nhat
+4. Tim hoc sinh theo ten
+5. Tim hoc sinh co diem toan thap nhat
+3
+Danh Sach hoc sinh co diem trung binh cao nhat la: 
+Tran Thi C
+1. Tinh diem trung binh
+2. Phan loai HS
+3. Tim hoc sinh co diem TB cao nhat
+4. Tim hoc sinh theo ten
+5. Tim hoc sinh co diem toan thap nhat
+4
+Nhap ten: 
+Tran Thi C
+Xuat diem trung binh va phan loai 
+Ten: Tran Thi C
+Diem TB: 7
+Danh Hieu: Kha
+1. Tinh diem trung binh
+2. Phan loai HS
+3. Tim hoc sinh co diem TB cao nhat
+4. Tim hoc sinh theo ten
+5. Tim hoc sinh co diem toan thap nhat
+5
+Danh Sach Hoc sinh co diem toan thap nhat la: 
+Nguyen Van A
+1. Tinh diem trung binh
+2. Phan loai HS
+3. Tim hoc sinh co diem TB cao nhat
+4. Tim hoc sinh theo ten
+5. Tim hoc sinh co diem toan thap nhat

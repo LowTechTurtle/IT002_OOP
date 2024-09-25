@@ -1,0 +1,131 @@
+1: Mo so tiet kiem
+2: Tim kiem du lieu so tiet kiem
+3: Cap nhat lai suat
+4: Tinh tien lai
+5: Rut tien
+6.1: Sap xep danh sach giam dan theo tien gui
+6.2: Sap xep theo ngay mo so tang dan
+end: Thoat
+1
+Nhap ma so :
+123
+Chon loai tiet kiem (nhap ngan han hoac dai han)
+Ngan han (6 thang) (3%/nam)
+Dai han (12 thang) (5%/nam)
+ngan han
+Nhap Ten: Dong Quoc Thang
+Nhap chung minh nhan dan: 123456789
+Ngay mo so, nhap ngay thang nam :1 1 2023
+so tien gui: 
+200000
+
+1: Mo so tiet kiem
+2: Tim kiem du lieu so tiet kiem
+3: Cap nhat lai suat
+4: Tinh tien lai
+5: Rut tien
+6.1: Sap xep danh sach giam dan theo tien gui
+6.2: Sap xep theo ngay mo so tang dan
+end: Thoat
+2
+Go 1 chu so tuong ung voi cac lua chon sau day:
+1: In ra tat ca
+2: Tim kiem thong tin so
+3: In ra cac thong tin so trong 1 khoang thoi gian nhat dinh
+1
+
+ma so, ho va ten, loai tiet kiem, cmnd, thoi gian mo so, so tien
+123, Dong Quoc Thang, ngan han, 123456789, 1 1 2023, 200000
+
+1: Mo so tiet kiem
+2: Tim kiem du lieu so tiet kiem
+3: Cap nhat lai suat
+4: Tinh tien lai
+5: Rut tien
+6.1: Sap xep danh sach giam dan theo tien gui
+6.2: Sap xep theo ngay mo so tang dan
+end: Thoat
+3
+Nhap ma so
+123
+Nhap lai suat
+7
+Lai suat da duoc cap nhat
+
+1: Mo so tiet kiem
+2: Tim kiem du lieu so tiet kiem
+3: Cap nhat lai suat
+4: Tinh tien lai
+5: Rut tien
+6.1: Sap xep danh sach giam dan theo tien gui
+6.2: Sap xep theo ngay mo so tang dan
+end: Thoat
+4
+Nhap ma so
+123
+so tien lai: 
+42000
+
+1: Mo so tiet kiem
+2: Tim kiem du lieu so tiet kiem
+3: Cap nhat lai suat
+4: Tinh tien lai
+5: Rut tien
+6.1: Sap xep danh sach giam dan theo tien gui
+6.2: Sap xep theo ngay mo so tang dan
+end: Thoat
+5
+Nhap ma so can rut tien
+123   
+So tien can rut: 
+100000
+
+1: Mo so tiet kiem
+2: Tim kiem du lieu so tiet kiem
+3: Cap nhat lai suat
+4: Tinh tien lai
+5: Rut tien
+6.1: Sap xep danh sach giam dan theo tien gui
+6.2: Sap xep theo ngay mo so tang dan
+end: Thoat
+2
+Go 1 chu so tuong ung voi cac lua chon sau day:
+1: In ra tat ca
+2: Tim kiem thong tin so
+3: In ra cac thong tin so trong 1 khoang thoi gian nhat dinh
+1
+
+ma so, ho va ten, loai tiet kiem, cmnd, thoi gian mo so, so tien
+123, Dong Quoc Thang, ngan han, 123456789, 1 1 2023, 100000
+
+1: Mo so tiet kiem
+2: Tim kiem du lieu so tiet kiem
+3: Cap nhat lai suat
+4: Tinh tien lai
+5: Rut tien
+6.1: Sap xep danh sach giam dan theo tien gui
+6.2: Sap xep theo ngay mo so tang dan
+end: Thoat
+6.1
+Cac so tiet kiem da duoc sort theo thu tu giam dan
+
+1: Mo so tiet kiem
+2: Tim kiem du lieu so tiet kiem
+3: Cap nhat lai suat
+4: Tinh tien lai
+5: Rut tien
+6.1: Sap xep danh sach giam dan theo tien gui
+6.2: Sap xep theo ngay mo so tang dan
+end: Thoat
+6.2
+Cac so tiet kiem da duoc sort theo thu tu tang dan
+
+1: Mo so tiet kiem
+2: Tim kiem du lieu so tiet kiem
+3: Cap nhat lai suat
+4: Tinh tien lai
+5: Rut tien
+6.1: Sap xep danh sach giam dan theo tien gui
+6.2: Sap xep theo ngay mo so tang dan
+end: Thoat
+end

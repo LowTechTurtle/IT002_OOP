@@ -1,0 +1,78 @@
+Nhap vao so chuyen bay: 2
+Nhap ma chuyen bay: VN!@#
+Nhap lai ma chuyen bay: VN123
+Nhap ngay bay( nhap ngay, thang bang so): 15 17
+Nhap lai ngay bay: 15 7
+Nhap gio bay( nhap gio, phut bang so): 12 15
+Nhap noi khoi hanh: VN
+Nhap noi ha canh: US
+Nhap ma chuyen bay: US234
+Nhap ngay bay( nhap ngay, thang bang so): 2 5
+Nhap gio bay( nhap gio, phut bang so): 16 20
+Nhap noi khoi hanh: US
+Nhap noi ha canh: Singapore
+1. Tim chuyen bay bang ma chuyen bay
+2. Tim chuyen bay bang noi di
+3. Tim chuyen bay bang noi den
+4. Tim chuyen bay tu mot noi cu the trong 1 ngay nhat dinh
+5. Tim chuyen bay bang noi di va noi den nhat dinh
+6. Sap xep chuyen bay theo ngay gio khoi hanh
+1
+Nhap ma chuyen bay: US2345
+Nhap lai ma chuyen bay: US234
+Ma chuyen bay: US234
+Ngay bay: 2/5
+Gio bay: 16:20
+Noi khoi hanh: US
+Noi ha canh: Singapore
+1. Tim chuyen bay bang ma chuyen bay
+2. Tim chuyen bay bang noi di
+3. Tim chuyen bay bang noi den
+4. Tim chuyen bay tu mot noi cu the trong 1 ngay nhat dinh
+5. Tim chuyen bay bang noi di va noi den nhat dinh
+6. Sap xep chuyen bay theo ngay gio khoi hanh
+3
+Nhap noi ha canh: US
+Ma chuyen bay: VN123
+Ngay bay: 15/7
+Gio bay: 12:15
+Noi khoi hanh: VN
+Noi ha canh: US
+1. Tim chuyen bay bang ma chuyen bay
+2. Tim chuyen bay bang noi di
+3. Tim chuyen bay bang noi den
+4. Tim chuyen bay tu mot noi cu the trong 1 ngay nhat dinh
+5. Tim chuyen bay bang noi di va noi den nhat dinh
+6. Sap xep chuyen bay theo ngay gio khoi hanh
+4
+Nhap noi khoi hanh: VN
+Nhap ngay va thang( nhap bang so): 15 7
+Ma chuyen bay: VN123
+Ngay bay: 15/7
+Gio bay: 12:15
+Noi khoi hanh: VN
+Noi ha canh: US
+1. Tim chuyen bay bang ma chuyen bay
+2. Tim chuyen bay bang noi di
+3. Tim chuyen bay bang noi den
+4. Tim chuyen bay tu mot noi cu the trong 1 ngay nhat dinh
+5. Tim chuyen bay bang noi di va noi den nhat dinh
+6. Sap xep chuyen bay theo ngay gio khoi hanh
+5
+Nhap noi khoi hanh: VN
+Nhap noi ha canh: US
+Tim thay 1 chuyen bay
+1. Tim chuyen bay bang ma chuyen bay
+2. Tim chuyen bay bang noi di
+3. Tim chuyen bay bang noi den
+4. Tim chuyen bay tu mot noi cu the trong 1 ngay nhat dinh
+5. Tim chuyen bay bang noi di va noi den nhat dinh
+6. Sap xep chuyen bay theo ngay gio khoi hanh
+6
+Cac chuyen bay da duoc sort theo ngay thang va gio bay
+1. Tim chuyen bay bang ma chuyen bay
+2. Tim chuyen bay bang noi di
+3. Tim chuyen bay bang noi den
+4. Tim chuyen bay tu mot noi cu the trong 1 ngay nhat dinh
+5. Tim chuyen bay bang noi di va noi den nhat dinh
+6. Sap xep chuyen bay theo ngay gio khoi hanh
