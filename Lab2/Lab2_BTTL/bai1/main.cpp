@@ -3,24 +3,28 @@
 using namespace std;
 
 int main() {
+    cout << "Tao diem A bang default constructor" << endl;
     Diem A;
     A.Xuat();
 
-    Diem B(1, 1);
+    double x, y;
+    cout << "Nhap hoanh do va tung do cua diem B: " ;
+    cin >> x >> y;
+    Diem B(x, y);
     B.Xuat();
 
+    cout << "Tao diem C bang copy constructor, copy diem B" << endl;
     Diem C(B);
     C.Xuat();
 
     cout << "Hoanh do cua B: " << B.GetHoanhDo() << endl;
     cout << "Tung do cua B: " << B.GetTungDo() << endl;
 
-    B.SetHoanhDo(1);
-    B.SetTungDo(2);
-    B.Xuat();
+    cout << "Nhap do tinh tien cho diem B: " << endl;
+    cin >> x >> y;
+    B.TinhTien(x, y);
 
-    B.TinhTien(3, 4);
-    cout << "Diem B sau khi tinh tien delta_x=3 va delta_y=4 ";
+    cout << "Diem B sau khi tinh tien: ";
     B.Xuat();
 
     return 0;

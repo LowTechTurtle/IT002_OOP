@@ -7,23 +7,23 @@ using namespace std;
         cout << "(" << iHoanh << ", " << iTung << ")" << endl;
     }
 
-    int Diem::GetTungDo() {
+    double Diem::GetTungDo() {
         return iTung;
     }
 
-    int Diem::GetHoanhDo() {
+    double Diem::GetHoanhDo() {
         return iHoanh;
     }
 
-    void Diem::SetTungDo(int Tung) {
+    void Diem::SetTungDo(double Tung) {
         iTung = Tung;
     }
 
-    void Diem::SetHoanhDo(int Hoanh) {
+    void Diem::SetHoanhDo(double Hoanh) {
         iHoanh = Hoanh;
     }
 
-    void Diem::TinhTien(int dx, int dy) {
+    void Diem::TinhTien(double dx, double dy) {
         iHoanh += dx;
         iTung += dy;
     }

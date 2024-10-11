@@ -3,8 +3,8 @@ using namespace std;
 
 class Diem {
 private:
-    int iHoanh;
-    int iTung;
+    double iHoanh;
+    double iTung;
 public:
 //constructor ko tham so
     Diem() {
@@ -13,7 +13,7 @@ public:
     }
 
 //constructor co tham so
-    Diem(int Hoanh, int Tung) {
+    Diem(double Hoanh, double Tung) {
         iHoanh = Hoanh;
         iTung = Tung;
     }
@@ -28,14 +28,14 @@ public:
 
 // Tiep theo la 4 ham getter setter cho hoanh do va tung do
 
-    int GetTungDo();
+    double GetTungDo();
 
-    int GetHoanhDo();
+    double GetHoanhDo();
 
-    void SetTungDo(int Tung);
+    void SetTungDo(double Tung);
 
-    void SetHoanhDo(int Hoanh);
+    void SetHoanhDo(double Hoanh);
 
 //tinh tien diem di 1 doan delta x va 1 doan delta y
-    void TinhTien(int dx, int dy);
+    void TinhTien(double dx, double dy);
 };
