@@ -13,7 +13,7 @@ int main() {
             cin >> matrix[i][j];
         }
     }
-
+    
     vector<rectangle> rectangles = solve(matrix, m, n);
 
     for (auto rect : rectangles) {

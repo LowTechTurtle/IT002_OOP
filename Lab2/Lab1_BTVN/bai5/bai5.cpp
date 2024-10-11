@@ -13,9 +13,9 @@ bool checkhcn(vector<vector<int>> matrix, int x, int y, int w, int h, int m, int
                 return false;
             if (j - 1 >= 0 && j == x && matrix[i][j-1] == 1)
                 return false;
-            if (j + w < m && j == x+w-1 && matrix[i][j+w-1] == 1)
+            if (j + w <= m && j == x+w-1 && matrix[i][j+w-1] == 1)
                 return false;
-            if (i + h < n && i == y+h-1 && matrix[i+h-1][j] == 1)
+            if (i + h <= n && i == y+h-1 && matrix[i+h-1][j] == 1)
                 return false;
         }
     }
