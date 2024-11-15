@@ -3,39 +3,34 @@
 using namespace std;
 
 int main() {
-    srand(time(0));  // Khởi tạo seed cho số ngẫu nhiên
+    int cow, sheep, goat;
+    cout << "Nhap so con bo: ";
+    cin >> cow;
+    cout << "Nhap so con cuu: ";
+    cin >> sheep;
+    cout << "Nhap so con de: ";
+    cin >> goat;
 
-    int cowQty, sheepQty, goatQty;
-    cout << "Nhập số lượng bò: ";
-    cin >> cowQty;
-    cout << "Nhập số lượng cừu: ";
-    cin >> sheepQty;
-    cout << "Nhập số lượng dê: ";
-    cin >> goatQty;
+    Cow Cows(cow);
+    Sheep Sheeps(sheep);
+    Goat Goats(goat);
 
-    Cow cowFarm(cowQty);
-    Sheep sheepFarm(sheepQty);
-    Goat goatFarm(goatQty);
+    Cows.keu();
+    Sheeps.keu();
+    Goats.keu();
 
-    // a) Các gia súc phát ra tiếng kêu khi đói
-    cout << "\nTất cả gia súc đều đói và kêu:\n";
-    cowFarm.makeSound();
-    sheepFarm.makeSound();
-    goatFarm.makeSound();
+    Cows.sinh();
+    Cows.choSua();
+    Sheeps.sinh();
+    Sheeps.choSua();
+    Goats.sinh();
+    Goats.choSua();
 
-    // b) Thống kê sau một lượt sinh sản và cho sữa
-    cowFarm.reproduce();
-    cowFarm.giveMilk();
-    sheepFarm.reproduce();
-    sheepFarm.giveMilk();
-    goatFarm.reproduce();
-    goatFarm.giveMilk();
-
-    // Thống kê kết quả
-    cout << "\nThống kê sau một lứa sinh sản và một lượt cho sữa:\n";
-    cout << "Số lượng bò: " << cowFarm.getQuantity() << ", Tổng sữa: " << cowFarm.getMilkProduced() << " lít\n";
-    cout << "Số lượng cừu: " << sheepFarm.getQuantity() << ", Tổng sữa: " << sheepFarm.getMilkProduced() << " lít\n";
-    cout << "Số lượng dê: " << goatFarm.getQuantity() << ", Tổng sữa: " << goatFarm.getMilkProduced() << " lít\n";
-
+    cout << "So con bo la: " << Cows.getNumberOfAnimal() << endl;
+    cout << "So sua con bo cho la: " << Cows.getNumberOfMilk() << endl;
+    cout << "So con cuu la: " << Sheeps.getNumberOfAnimal() << endl;
+    cout << "So sua con cuu cho la: " << Sheeps.getNumberOfMilk() << endl;
+    cout << "So con de la: " << Goats.getNumberOfAnimal() << endl;
+    cout << "So sua con de cho la: " << Goats.getNumberOfMilk() << endl;
     return 0;
 }

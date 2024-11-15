@@ -3,29 +3,29 @@
 using namespace std;
 
 int main() {
-    Deluxe a(5, 100000, 50000);  // 5 đêm, phí dịch vụ 100000, phí phục vụ 50000
-    Deluxe b(3, 200000, 70000);  // 3 đêm, phí dịch vụ 200000, phí phục vụ 70000
-    Premium c(4, 50000);         // 4 đêm, phí dịch vụ 50000
-    Premium d(2, 30000);         // 2 đêm, phí dịch vụ 30000
-    Business e(7);               // 7 đêm, không có phí dịch vụ
+    Deluxe a(1, 200000, 30000);
+    Deluxe b(2, 300000, 40000);
+    Premium c(3, 40000);
+    Premium d(5, 60000);
+    Business e(7);
 
-    int deluxeRevenue = a.revenue() + b.revenue();
-    int premiumRevenue = c.revenue() + d.revenue();
-    int businessRevenue = e.revenue();
+    int deluxe = a.revenue() + b.revenue();
+    int premium = c.revenue() + d.revenue();
+    int business = e.revenue();
 
-    string maxRoomType;
-    int maxRevenue = max({deluxeRevenue, premiumRevenue, businessRevenue});
+    string maxRoom;
+    int max = max({deluxe, premium, business});
     
-    if (maxRevenue == deluxeRevenue) {
-        maxRoomType = "Deluxe";
-    } else if (maxRevenue == premiumRevenue) {
-        maxRoomType = "Premium";
+    if (max == deluxe) {
+        max = "Deluxe";
+    } else if (max == premium) {
+        maxRoom = "Premium";
     } else {
-        maxRoomType = "Business";
+        maxRoom = "Business";
     }
 
-    cout << "Loại phòng có doanh thu cao nhất là " << maxRoomType 
-         << " với doanh thu là " << maxRevenue << " VNĐ." << endl;
+    cout << "Loai phong co doanh thu  cao nhat la " << maxRoom
+         << " voi doanh thu la " << max << endl;
 
     return 0;
 }

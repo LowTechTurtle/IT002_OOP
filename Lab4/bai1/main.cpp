@@ -1,3 +1,7 @@
+
+    double QuanLy::TienThuong() {
+        return luongCoBan * tyLeThuong;
+    }
 #include<bits/stdc++.h>
 #include "bai1.cpp"
 using namespace std;

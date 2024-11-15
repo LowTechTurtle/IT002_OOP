@@ -3,50 +3,50 @@ using namespace std;
 
 class Animal {
 protected:
-    int quantity;  
-    int milkProduced; 
+    int count;  
+    int milk; 
 
 public:
-    Animal(int qty) : quantity(qty), milkProduced(0) {}
+    Animal(int count) : count(count), milk(0) {}
 
-    virtual void makeSound();
-    virtual void giveMilk();
-    virtual void reproduce();
+    virtual void keu();
+    virtual void choSua();
+    virtual void sinh();
 
-    int getQuantity();
+    int getNumberOfAnimal();
 
-    int getMilkProduced();
+    int getNumberOfMilk();
 };
 
 class Cow : public Animal {
 public:
-    Cow(int qty) : Animal(qty) {}
+    Cow(int count) : Animal(count) {}
 
-    void makeSound() override;
+    void keu() override;
 
-    void giveMilk() override;
+    void choSua() override;
 
-    void reproduce() override;
+    void sinh() override;
 };
 
 class Sheep : public Animal {
 public:
-    Sheep(int qty) : Animal(qty) {}
+    Sheep(int count) : Animal(count) {}
 
-    void makeSound() override;
+    void keu() override;
 
-    void giveMilk() override;
+    void choSua() override;
 
-    void reproduce() override;
+    void sinh() override;
 };
 
 class Goat : public Animal {
 public:
-    Goat(int qty) : Animal(qty) {}
+    Goat(int count) : Animal(count) {}
 
-    void makeSound() override;
+    void keu() override;
 
-    void giveMilk() override;
+    void choSua() override;
 
-    void reproduce() override;
+    void sinh() override;
 };

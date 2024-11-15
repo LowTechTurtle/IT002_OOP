@@ -2,66 +2,76 @@
 #include "bai3.h"
 using namespace std;
 
-    void Animal::makeSound() {
+    void Animal::keu() {
     }
-    void Animal::giveMilk() {
-    }
-
-    void Animal::reproduce() {
+    void Animal::choSua() {
     }
 
-    int Animal::getQuantity() {
-        return quantity;
+    void Animal::sinh() {
     }
 
-    int Animal::getMilkProduced(){
-        return milkProduced;
+    int Animal::getNumberOfAnimal() {
+        return count;
     }
 
-    void Cow::makeSound() {
-        cout << "Bò kêu: Moo!" << endl;
+    int Animal::getNumberOfMilk(){
+        return milk;
     }
 
-    void Cow::giveMilk() {
-        for (int i = 0; i < quantity; ++i) {
-            milkProduced += rand() % 21; // Mỗi bò cho từ 0 đến 20 lít sữa
+    void Cow::keu() {
+        for (int i = 0; i < count; i++)
+            cout << "Bo doi" << endl;
+    }
+
+    void Cow::choSua() {
+        int temp = count;
+        for (int i = 0; i < temp; i++) {
+            milk += rand() % 21;
         }
     }
 
-    void Cow::reproduce() {
-        for (int i = 0; i < quantity; ++i) {
-            quantity += rand() % 3; // Mỗi bò có thể sinh từ 0 đến 2 con
+    void Cow::sinh() {
+        int temp = count;
+        for (int i = 0; i < temp; i++) {
+            count += rand() % 3;
         }
     }
 
-    void Sheep::makeSound() {
-        cout << "Cừu kêu: Baa!" << endl;
+    void Sheep::keu() {
+        int temp = count;
+        for (int i = 0; i < temp; i++)
+            cout << "Cuu doi" << endl;
     }
 
-    void Sheep::giveMilk() {
-        for (int i = 0; i < quantity; ++i) {
-            milkProduced += rand() % 6; // Mỗi cừu cho từ 0 đến 5 lít sữa
+    void Sheep::choSua() {
+        int temp = count;
+        for (int i = 0; i < temp; i++) {
+            milk += rand() % 6;
         }
     }
 
-    void Sheep::reproduce() {
-        for (int i = 0; i < quantity; ++i) {
-            quantity += rand() % 3; // Mỗi cừu có thể sinh từ 0 đến 2 con
+    void Sheep::sinh() {
+        int temp = count;
+        for (int i = 0; i < temp; i++) {
+            count += rand() % 3; //
         }
     }
 
-    void Goat::makeSound() {
-        cout << "Dê kêu: Bleat!" << endl;
+    void Goat::keu() {
+        for (int i = 0; i < count; i++)
+            cout << "De doi" << endl;
     }
 
-    void Goat::giveMilk() {
-        for (int i = 0; i < quantity; ++i) {
-            milkProduced += rand() % 11; // Mỗi dê cho từ 0 đến 10 lít sữa
+    void Goat::choSua() {
+        int temp = count;
+        for (int i = 0; i < temp; i++) {
+            milk += rand() % 11;
         }
     }
 
-    void Goat::reproduce() {
-        for (int i = 0; i < quantity; ++i) {
-            quantity += rand() % 3; // Mỗi dê có thể sinh từ 0 đến 2 con
+    void Goat::sinh() {
+        int temp = count;
+        for (int i = 0; i < temp; i++) {
+            count += rand() % 3;
         }
     }
